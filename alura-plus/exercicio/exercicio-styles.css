@@ -1,0 +1,17 @@
+:root {
+    --branco-principal: #FFFFFF;
+    --cinza: #C0C0C0;
+    --azul-celeste: #167BF7;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-section {
+    background-image: url('Background.png'); /* Define a imagem de fundo */
+    background-size: cover; /* Faz a imagem cobrir toda a área da seção */
+    background-repeat: no-repeat; /* Impede que a imagem se repita */
+    background-position: center; /* Centraliza a imagem no meio da seção */
+    height: 100vh; /* Define a altura da seção como 100% da altura da tela */
+}
