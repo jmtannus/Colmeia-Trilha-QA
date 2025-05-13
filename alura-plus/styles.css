@@ -1,5 +1,6 @@
 :root {
     --branco-principal: #FFFFFF;
+    --branco-secundario: #F9F9F9;
     --cinza-secundario: #C0C0C0;
     --botao-azul: #167BF7;
     --cor-de-fundo: #00030C;
@@ -23,6 +24,8 @@ body {
     background-image: url("img/Background.png");
     background-repeat: no-repeat;
     background-size: contain;
+    align-items: center;
+    text-align: center;
 }
 
 .container {
@@ -62,4 +65,32 @@ body {
 
 .container__caixa {
     margin: 0 6em;
+}
+
+.secundario__imagem {
+    width: 80%;
+}
+
+.secundario {
+    align-items: center;
+    margin: 0 10em;
+}
+
+.descricao__titulo {
+    font-weight: 700;
+    font-size: 48px;
+    color: var(--branco-principal);
+    margin-bottom: 0.1em;
+}
+
+.descricao__texto {
+    color: var(--cinza-secundario);
+}
+
+.secundario__botao {
+    display: inline-block;
+}
+
+.container__descricao {
+    padding: 2em;
 }
